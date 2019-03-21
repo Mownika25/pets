@@ -41,6 +41,10 @@
     <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
     <string name="hint_pet_name">Name</string>
 
+    <string name="editor_insert_pet_failed">insert_pet_failed</string>
+
+    <string name="editor_insert_pet_successful">editor_insert_pet_successful</string>
+
     <!-- Text hint for breed field in the editor [CHAR LIMIT=30] -->
     <string name="hint_pet_breed">Breed</string>
 
