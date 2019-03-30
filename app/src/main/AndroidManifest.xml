@@ -30,8 +30,7 @@
         </activity>
         <activity
             android:name=".EditorActivity"
-            android:label="@string/editor_activity_title_new_pet"
-            android:parentActivityName=".CatalogActivity"
+             android:parentActivityName=".CatalogActivity"
             android:theme="@style/EditorTheme">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -45,10 +44,6 @@
             android:authorities="com.example.android.pets"
             android:exported="false" />
 
-        <activity
-            android:name=".PetCursorAdapter"
-            android:label="@string/title_activity_pet_cursor_adapter"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
